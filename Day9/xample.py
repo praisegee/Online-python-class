@@ -18,6 +18,7 @@ class Polygon:
         turtle.done()
 
 
+
 # s = Polygon(40, 'square', 4)
 p = Polygon(70, 'pentagon', 10)
 # s.draw()

@@ -31,28 +31,28 @@ import json
 
 
 
-class Car:
+# class Car:
     
-    def __init__(self, size, color):
-        self.size = size
-        self.color = color
-        print("Created")
+#     def __init__(self, size, color):
+#         self.size = size
+#         self.color = color
+#         print("Created")
 
-    def move():
-        print("Moving....")
+#     def move():
+#         print("Moving....")
 
-    def horn():
-        print("Pinnnn....")
+#     def horn():
+#         print("Pinnnn....")
 
 
-car1 = Car(23, "red")
-car2 = Car(12, "blue")
+# car1 = Car(23, "red")
+# car2 = Car(12, "blue")
 
-a = "Haseeb" # str
-a.capitalize()
+# a = "Haseeb" # str
+# a.capitalize()
 
-print(car1.size)
-print(car2.size)
+# print(car1.size)
+# print(car2.size)
 
 
 
