@@ -72,7 +72,7 @@ import requests
 url = 'https://api.github.com/users/praisegee/repos'
 
 
-response = requests.get(url)
+response = requests.delete(url)
 
 data = response.json()
 

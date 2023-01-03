@@ -14,7 +14,8 @@ def handle_add_to_shelf(shelf):
 
 
 def display_all_books(shelf):
-    books = [f"{book['title']} by {book['author']}"  for book in shelf]
+    books = [f"{book['title']} by {book['author']}" for book in shelf]
+    # ['Book by Haseeb', 'Great by PG', ]
     print()
     num = 1
     for book in books:
