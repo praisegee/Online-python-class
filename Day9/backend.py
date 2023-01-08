@@ -1,6 +1,3 @@
-
-
-
 def handle_add_to_shelf(shelf):
     book = {}
     book['title'] = input("Enter the book title: ")
@@ -10,7 +7,6 @@ def handle_add_to_shelf(shelf):
 
     shelf.append(book)
     display_all_books(shelf)
-
 
 
 def display_all_books(shelf):

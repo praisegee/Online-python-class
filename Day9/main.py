@@ -47,7 +47,6 @@
 # print(type(data))
 
 
-
 # class Animal:
 #     def __init__(self, color, size):
 #         self.color = color
@@ -60,7 +59,6 @@
 #     def __init__(self, color, size, tp):
 #         super().__init__(color, size)
 #         self.type = tp
-
 
 
 # class Dog(Animal):
@@ -76,8 +74,6 @@
 
 # f1 = Fish('green', 4, 'Big Fish')
 # print(f1.type)
-
-
 
 
 # a1 = Animal('red', 23.4)
@@ -98,7 +94,12 @@
 #     'description': 'Book by Ben Carson'
 # }
 
+
+from json import load
+
 import backend as bk
+
+load()
 
 
 def main():
@@ -106,8 +107,8 @@ def main():
     --------------------
     | HASEEB BOOKSTORE |
     --------------------
-    What do you wanna do: 
-    TYPE: 
+    What do you wanna do:
+    TYPE:
         -a --> add a book to shelf
         -l --> list all available books
         -e --> edit a book
@@ -134,33 +135,8 @@ def main():
         else:
             print('Invalid option. Try again.')
             option = input(USER_PROMPT).lower()
-        
+
         option = input(USER_PROMPT).lower()
 
 
-
 main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

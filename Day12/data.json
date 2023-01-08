@@ -1,0 +1,10 @@
+{
+    "name": "Haseeb",
+    "age": 16,
+    "frieds": [
+        "Scott",
+        "Jason"
+    ],
+    "hobby": "coding",
+    "black": true
+}

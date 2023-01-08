@@ -1,6 +1,7 @@
 
 import turtle
 
+
 class Polygon:
     def __init__(self, size, shape, sides):
         self.size = size
@@ -8,7 +9,6 @@ class Polygon:
         self.sides = sides
         self.inter_angle = (self.sides - 2) * 180
         self.angle = self.inter_angle / self.sides
-
 
     def draw(self):
         t = turtle.Turtle()
@@ -18,9 +18,7 @@ class Polygon:
         turtle.done()
 
 
-
 # s = Polygon(40, 'square', 4)
 p = Polygon(70, 'pentagon', 10)
 # s.draw()
 p.draw()
-

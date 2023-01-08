@@ -161,7 +161,6 @@ items = ["Goodies", "Cookies", "Cake", "Bread"]
 
 import turtle
 
-
 pet = turtle.Pen("turtle")
 
 
