@@ -23,7 +23,7 @@ window.config(padx=50, pady=50)
 window.title("Calculator")
 
 def display(btn):
-    print("Button: ", type(btn))
+    # print("Button: ", type(btn))
     screen.insert(tk.END, btn['text'])
 
 
@@ -62,6 +62,7 @@ btn_0.grid(column=1, row=4)
 
 btn_dot = tk.Button(text=".", command=lambda: display(btn_dot))
 btn_dot.grid(column=0, row=4)
+
 
 btn_eql = tk.Button(text="=")
 btn_eql.grid(column=2, row=4)
